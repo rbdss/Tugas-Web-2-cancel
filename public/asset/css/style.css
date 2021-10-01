@@ -1,0 +1,11 @@
+.pprofil {
+  width: 50px;
+}
+
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+}
