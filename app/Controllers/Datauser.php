@@ -94,7 +94,7 @@ class Datauser extends BaseController
         if ($filePhoto->getError() == 4) {
             $namaPhoto = 'profile-icon.png';
         } else {
-            //generate randop filename
+            //generate random filename
             $namaPhoto = $filePhoto->getRandomName();
             //move to asset
             $filePhoto->move('asset/image', $namaPhoto);

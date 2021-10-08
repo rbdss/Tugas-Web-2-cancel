@@ -36,6 +36,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Pages::index');
 
 $routes->get('/datauser/tambah', 'Datauser::tambah');
+$routes->get('/admin', 'Pages::login');
 $routes->get('/datauser/edit/(:segment)', 'Datauser::edit/$1');
 $routes->delete('/datauser/(:num)', 'Datauser::delete/$1');
 $routes->get('/datauser/(:any)', 'Datauser::detail/$1');
